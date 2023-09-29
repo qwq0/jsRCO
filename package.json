@@ -1,6 +1,20 @@
 {
     "name": "jsrco",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "qwq0",
-    "type": "module"
+    "type": "module",
+
+    "main": "./dist/jsobin.js",
+    "types": "./dist/jsobin.d.ts",
+
+    "license": "MIT",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qwq0/jsRCO"
+    },
+    "keywords": [
+        "RPC",
+        "jsobin"
+    ]
 }
