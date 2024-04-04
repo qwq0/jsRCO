@@ -1,6 +1,6 @@
 {
     "name": "jsrco",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "qwq0",
     "type": "module",
     "main": "./dist/jsobin.js",
