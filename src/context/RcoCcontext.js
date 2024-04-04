@@ -1,4 +1,4 @@
-import { JSOBin } from "../../lib/jsobin.js";
+import { JSOBin } from "jsobin";
 import { TmpFunctionInfo } from "./TmpFunctionInfo.js";
 import { base64ToUint8Array, uint8ArrayToBase64 } from "../util/base64.js";
 import { uniqueIdentifierString } from "../util/uniqueIdentifier.js";
