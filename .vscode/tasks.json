@@ -14,7 +14,7 @@
         {
             "label": "build types",
             "type": "shell",
-            "command": "tsc ./src/index.js --declaration --allowJs --emitDeclarationOnly --strictNullChecks --exactOptionalPropertyTypes --outdir ./dist/types \n npx rollup -i dist/types/index.d.ts -o dist/jsRco.d.ts -f es -p rollup-plugin-dts",
+            "command": "tsc ./src/index.js --target ES2022 --declaration --allowJs --emitDeclarationOnly --strictNullChecks --exactOptionalPropertyTypes --outdir ./dist/types \n npx rollup -i dist/types/index.d.ts -o dist/jsRco.d.ts -f es -p rollup-plugin-dts",
             "problemMatcher": [ ],
             "group": {
                 "kind": "build",

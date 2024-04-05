@@ -1,1 +1,1 @@
-export { RcoCcontext } from "./context/RcoCcontext.js";
+export { RcoContext } from "./context/RcoCcontext.js";

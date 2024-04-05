@@ -1,9 +1,9 @@
-import { RcoCcontext } from "../src/index.js";
+import { RcoContext } from "../src/index.js";
 
 (async () =>
 {
-    let context1 = new RcoCcontext();
-    let context2 = new RcoCcontext();
+    let context1 = new RcoContext();
+    let context2 = new RcoContext();
 
     context1.bindOutStream((data) => { context2.onData(data); });
     context2.bindOutStream((data) => { context1.onData(data); });

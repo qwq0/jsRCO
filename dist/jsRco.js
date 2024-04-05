@@ -1066,7 +1066,7 @@ let jsobContext = new JSOBin();
 /**
  * rco操作上下文
  */
-class RcoCcontext
+class RcoContext
 {
     /**
      * 全局命名函数
@@ -1487,4 +1487,4 @@ class RcoCcontext
     }
 }
 
-export { RcoCcontext };
+export { RcoContext };
